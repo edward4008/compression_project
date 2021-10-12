@@ -26,3 +26,5 @@ Random Filter Pruning
 
 ## Cascaded Classifier Design
 The second part of the project is about the deisgn of cascaded classifier architecture based on compressed networks. The code for this part of the project can be found in the `cascade` folder.
+
+To reproduce the results with the cascaded classifier architecture, one should specify the corresponding path of the stored models for each level of the cascaded classifier. Note that all levels except the last level require the architecture of the pruned models as the input, so please be sure to save the model architecture when compressing the models.
