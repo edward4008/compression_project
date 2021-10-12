@@ -14,7 +14,7 @@ nni == 2.0
 ```
 
 ## Performance Analysis of Compressed Networks
-The first part of the project is about the performance analysis of compressing methods. The code for this part of the project can be found in the `pruning` folder. CUrrently there are six different compressing methods implemented:
+The first part of the project is about the performance analysis of compressing methods. The code for this part of the project can be found in the `pruning` folder. Currently there are six different compressing methods implemented:
 ```
 Level Pruning
 L1 Filter Pruning
